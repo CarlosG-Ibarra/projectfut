@@ -8,7 +8,7 @@ const Header = () => {
         <h1>ProjectFut</h1>
       </div>
       <nav>
-        <ul>
+        <ul >
           <li>
             <a href="/">Home</a>
           </li>
@@ -17,7 +17,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <button className="login-button">Log In</button>
+      <div className="login-container">
+        <button className="login-button">Log In</button>
+      </div>
     </header>
   );
 };
