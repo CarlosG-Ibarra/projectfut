@@ -1,24 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import './Carousel.css'; // Import CSS file for styling
+import './Carousel.css'; 
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Function to move to the next image
   const goToNext = () => {
     setCurrentIndex(prevIndex => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
-  // Function to move to the previous image
   const goToPrevious = () => {
     setCurrentIndex(prevIndex => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
-  // Auto play the carousel
   useEffect(() => {
-    const intervalId = setInterval(goToNext, 5000); // Change image every 3 seconds
-    return () => clearInterval(intervalId); // Clean up the interval on component unmount
-  }, [currentIndex]); // Re-run effect when currentIndex changes
+    const intervalId = setInterval(goToNext, 5000); 
+    return () => clearInterval(intervalId); 
+  }, [currentIndex]);
 
   return (
     <div className="carousel-container">
