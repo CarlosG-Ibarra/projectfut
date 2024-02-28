@@ -13,7 +13,7 @@ function App() {
     'https://e0.365dm.com/20/05/2048x1152/skysports-premier-league-return_5000805.jpg?20200528144054',
     'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt057868eb47d891ea/62f4da0add55ae10995228b9/League_Cover_Bundesliga.jpeg?auto=webp&format=pjpg&width=1200&quality=60',
     'https://media.squawka.com/images/en/2021/04/09125843/1199117_1199117_feature_header-%E2%80%93-fixture-1.png',
-    'https://seriea.co.uk/wp-content/uploads/2021/10/Fantacalcio-1-1152x648-2.jpg',
+    'https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/marquee/1047317/saitl_us_2023_sp_hero_landscape_2880x1620.jpg',
   ];
 
   return (
