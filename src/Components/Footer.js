@@ -13,13 +13,13 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Enlaces Rápidos</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/">Indice</a></li>
+            <li><a href="/about">Sobre Nosotros</a></li>
+            <li><a href="/contact">Contactos</a></li>
           </ul>
         </div>
         <div className="footer-column">
-          <h3>Contact Us</h3>
+          <h3>Contactos</h3>
           <p>Email: ProjectFut@example.com</p>
           <p>Phone: 123-456-7890</p>
         </div>

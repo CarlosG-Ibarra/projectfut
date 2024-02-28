@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import NavBar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Carousel from './Components/Carousel'; // Import the Carousel component
+import SearchBar from './Components/SearchBar';
 
 function App() {
   // Define an array of image URLs for the carousel
@@ -20,6 +21,7 @@ function App() {
       <Header />
       <NavBar />
       <Carousel images={images} /> {/* Include the Carousel component */}
+      <SearchBar/>
       <Footer />
     </div>
   );

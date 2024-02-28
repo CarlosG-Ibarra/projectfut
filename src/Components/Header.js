@@ -8,12 +8,12 @@ const Header = () => {
         <h1>ProjectFut</h1>
       </div>
       <nav>
-        <ul >
+        <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Indice</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">Sobre Nosotros</a>
           </li>
         </ul>
       </nav>
