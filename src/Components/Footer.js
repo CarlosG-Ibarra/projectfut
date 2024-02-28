@@ -1,6 +1,6 @@
 // Footer.js
-import React from 'react';
-import './Footer.css'; // Import CSS file
+import React from "react";
+import "./Footer.css"; // Import CSS file
 
 const Footer = () => {
   return (
@@ -8,14 +8,25 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-column">
           <h3>Sobre Nosotros</h3>
-          <p>aqui va discripcion</p>
+          <p>
+            'Proyect Fut': tu destino futbolístico definitivo. Análisis,
+            estadísticas y noticias actualizadas. Participa en debates y
+            encuestas. Accesible desde cualquier dispositivo. Vive el fútbol con
+            nosotros.
+          </p>
         </div>
         <div className="footer-column">
           <h3>Enlaces Rápidos</h3>
           <ul>
-            <li><a href="/">Indice</a></li>
-            <li><a href="/about">Sobre Nosotros</a></li>
-            <li><a href="/contact">Contactos</a></li>
+            <li>
+              <a href="/">Indice</a>
+            </li>
+            <li>
+              <a href="/about">Sobre Nosotros</a>
+            </li>
+            <li>
+              <a href="/contact">Contactos</a>
+            </li>
           </ul>
         </div>
         <div className="footer-column">
