@@ -9,7 +9,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   // Define an array of image URLs for the carousel
-  const images = [
+  const imagesHome = [
     "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0fa8f784e8bcfb2b/62f492bb479be96a6e6b6dd9/League_Cover_La_Liga.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "https://e0.365dm.com/20/05/2048x1152/skysports-premier-league-return_5000805.jpg?20200528144054",
     "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt057868eb47d891ea/62f4da0add55ae10995228b9/League_Cover_Bundesliga.jpeg?auto=webp&format=pjpg&width=1200&quality=60",
@@ -22,10 +22,18 @@ function App() {
       <Header />
       <NavBar />
       <Routes>
-        <Route path="/" element={<Carousel images={images} />} />
-        <Route path="/about" element={<h1> SOBRE NOSOTROS </h1>} />
+        <Route
+          path="/"
+          element={
+            <div>
+              <Carousel images={imagesHome} />
+              <SearchBar />
+            </div>
+          }
+        />
+        <Route path="/about" element={<h1>SOBRE NOSOTROS</h1>} />
+        <Route path="/contact" element={<h1>Contactanos</h1>} />
       </Routes>
-      <SearchBar />
       <Footer />
     </div>
   );
