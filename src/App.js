@@ -5,6 +5,7 @@ import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Carousel from "./Components/Carousel"; // Import the Carousel component
 import SearchBar from "./Components/SearchBar";
+import PremierLeague from "./Components/PremierLeague";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         />
         <Route path="/about" element={<h1>SOBRE NOSOTROS</h1>} />
         <Route path="/contact" element={<h1>Contactanos</h1>} />
+        <Route path="/PremierLeague" element={<PremierLeague />} />
       </Routes>
       <Footer />
     </div>

@@ -9,7 +9,7 @@ const NavBar = () => {
         <li><a href="#">Bundesliga</a></li>
         <li><a href="#">La Liga</a></li>
         <li><a href="#">Serie A</a></li>
-        <li><a href="#">Premier League</a></li>
+        <li><a href="/PremierLeague">Premier League</a></li>
       </ul>
     </nav>
   );
