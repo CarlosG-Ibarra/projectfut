@@ -8,7 +8,7 @@
 .footer-container {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start; /* Align items at the start of the container */
+  align-items: flex-start;
 }
 
 .footer-column {

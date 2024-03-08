@@ -1,7 +1,7 @@
 .carousel {
     position: relative;
     width: 100%;
-    height: 90vh; /* Set height to 100% of viewport height */
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,6 @@
   img {
     width: 90%;
     height: 1%0;
-    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+    object-fit: cover; 
   }
   

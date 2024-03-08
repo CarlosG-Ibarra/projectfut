@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const SerieAMatches = () => {
     const [matches, setMatches] = useState([]);
-    const serieAId = 135; // ID de la Serie A
+    const serieAId = 135; 
     const currentDate = new Date().toISOString().split('T')[0]; 
     
     useEffect(() => {
