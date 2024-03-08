@@ -32,9 +32,9 @@ const BundesligaMatches = () => {
 
     return (
         <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: '0 auto' }}>
-            <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Bundesliga Matches Today</h2>
+            <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Bundesliga partidos hoy</h2>
             {matches.length === 0 ? (
-                <p style={{ textAlign: 'center' }}>No matches today</p>
+                <p style={{ textAlign: 'center' }}>No hay partidos hoy</p>
             ) : (
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
                     {matches.map(match => (
@@ -42,7 +42,7 @@ const BundesligaMatches = () => {
                             <p style={{ marginBottom: '5px', fontWeight: 'bold' }}>
                                 {match.teams.home.name} vs {match.teams.away.name}
                             </p>
-                            <p style={{ margin: 0 }}>Time: {match.fixture.date}, Venue: {match.fixture.venue.name}</p>
+                            <p style={{ margin: 0 }}>Tiempo: {match.fixture.date}, Lugar: {match.fixture.venue.name}</p>
                         </li>
                     ))}
                 </ul>

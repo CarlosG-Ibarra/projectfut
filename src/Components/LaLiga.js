@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const LaLigaMatches = () => {
     const [matches, setMatches] = useState([]);
-    const laLigaId = 140; // ID de La Liga
+    const laLigaId = 140;
     const currentDate = new Date().toISOString().split('T')[0]; 
     
     useEffect(() => {

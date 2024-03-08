@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "./Components/Header";
 import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Contact from "./Components/Contact.js";
+import About from "./Components/about.js";
 import Carousel from "./Components/Carousel";
 import PremierLeague from "./Components/PremierLeague";
 import LaLiga from "./Components/LaLiga";
@@ -60,8 +62,8 @@ function App() {
             </div>
           }
         />
-        <Route path="/about" element={<h1>SOBRE NOSOTROS</h1>} />
-        <Route path="/contact" element={<h1>Contactanos</h1>} />
+        <Route path="/About" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route
           path="/PremierLeague"
           element={
